@@ -30,4 +30,5 @@ JOIN products p ON t.product_id = p.product_id;
 SELECT p.product_name, c.category_name, p.unit_price, p.stock_quantity
 FROM products p
 JOIN categories c ON p.category_id = c.category_id;
+```
 ![Join Query](join.png)
