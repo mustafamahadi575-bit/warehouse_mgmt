@@ -68,3 +68,9 @@ JOIN categories c ON p.category_id = c.category_id;
 UPDATE products SET unit_price = 1250.00 WHERE product_id = 1;
 ```
 ![task5 qoury](task5.png)
+### Task: Alter Table Structure
+```sql
+ALTER TABLE products DROP CHECK products_chk_2;
+ALTER TABLE products RENAME COLUMN stock_quantity TO available_stock;
+```
+![task6 qoury](task6.png)
