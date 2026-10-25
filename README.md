@@ -63,3 +63,8 @@ JOIN products p ON t.product_id = p.product_id
 JOIN categories c ON p.category_id = c.category_id;
 ```
 ![task4 qoury](task4.png)
+### Task: Update Product Price
+```sql
+UPDATE products SET unit_price = 1250.00 WHERE product_id = 1;
+```
+![task5 qoury](task5.png)
