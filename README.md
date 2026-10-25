@@ -42,3 +42,8 @@ SELECT * FROM products;
 SELECT product_name, unit_price FROM products WHERE unit_price > 50;
 ```
 ![task1 qoury](task1.png)
+### Task: Filter Products by Price
+```sql
+SELECT product_name, unit_price FROM products WHERE unit_price > 50;
+```
+![task2 qoury](task2.png)
