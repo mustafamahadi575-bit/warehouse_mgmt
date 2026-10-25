@@ -55,3 +55,11 @@ FROM categories c
 LEFT JOIN products p ON c.category_id = p.category_id;
 ```
 ![task3 qoury](task2.png)
+### Task: Multiple Joins for Transactions
+```sql
+SELECT t.transaction_id, c.category_name, p.product_name, t.transaction_type, t.quantity
+FROM stock_transactions t
+JOIN products p ON t.product_id = p.product_id
+JOIN categories c ON p.category_id = c.category_id;
+```
+![task4 qoury](task4.png)
