@@ -41,4 +41,4 @@ SELECT * FROM products;
 ```sql
 SELECT product_name, unit_price FROM products WHERE unit_price > 50;
 ```
-![task qoury](taskt.png)
+![task1 qoury](task1.png)
