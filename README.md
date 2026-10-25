@@ -47,3 +47,11 @@ SELECT product_name, unit_price FROM products WHERE unit_price > 50;
 SELECT product_name, unit_price FROM products WHERE unit_price > 50;
 ```
 ![task2 qoury](task2.png)
+```
+### Task: Left Join Categories and Products
+```sql
+SELECT c.category_name, p.product_name 
+FROM categories c 
+LEFT JOIN products p ON c.category_id = p.category_id;
+```
+![task3 qoury](task2.png)
