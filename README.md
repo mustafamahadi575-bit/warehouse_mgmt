@@ -79,3 +79,8 @@ ALTER TABLE products RENAME COLUMN stock_quantity TO available_stock;
 ALTER TABLE products MODIFY COLUMN unit_price DECIMAL(12,2);
 ```
 ![task7 qoury](task7.png)
+### Task: Add Column with Default Value
+```sql
+ALTER TABLE products ADD COLUMN reorder_level INT DEFAULT 5;
+```
+![task8 qoury](task8.png)
