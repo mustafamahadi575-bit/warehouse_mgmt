@@ -18,3 +18,9 @@ The database structure consists of three main tables:
 - `assignment_iii.sql`: Complete SQL script including table creation, initial data, and JOIN queries.
 - `erd.png`: Entity Relationship Diagram image.
 - `README.md`: Project documentation file.
+- ### Task: Inner Join Query
+```sql
+SELECT t.transaction_id, p.product_name, t.transaction_type, t.quantity, t.transaction_date
+FROM stock_transactions t
+JOIN products p ON t.product_id = p.product_id;
+![Inner Join](Inner%20Join.png)
