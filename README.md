@@ -23,4 +23,5 @@ The database structure consists of three main tables:
 SELECT t.transaction_id, p.product_name, t.transaction_type, t.quantity, t.transaction_date
 FROM stock_transactions t
 JOIN products p ON t.product_id = p.product_id;
+```
 ![Inner Join](Inner%20Join.png)
