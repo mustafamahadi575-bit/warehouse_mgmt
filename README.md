@@ -15,6 +15,6 @@ The database structure consists of three main tables:
 ![ERD Diagram](erd.png)
 
 ## Repository Structure
-- `schema.sql`: Complete SQL script including table creation, initial data, and JOIN queries.
+- `assignment_iii.sql`: Complete SQL script including table creation, initial data, and JOIN queries.
 - `erd.png`: Entity Relationship Diagram image.
 - `README.md`: Project documentation file.
