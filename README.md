@@ -37,3 +37,8 @@ JOIN categories c ON p.category_id = c.category_id;
 SELECT * FROM products;
 ```
 ![select Query ](select.png)
+### Task: Filter Products by Price
+```sql
+SELECT product_name, unit_price FROM products WHERE unit_price > 50;
+```
+![task qoury](taskt.png)
