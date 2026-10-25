@@ -4,7 +4,7 @@
 This database system is designed for managing warehouse inventory, category cataloging, and stock transactions using MySQL.
 
 ## Database Name
-`mustafa_20241234_warehouse_mgmt`
+`mustafa_202512507_warehouse_mgmt`
 
 ## Entity Relationship Diagram (ERD)
 The database structure consists of three main tables:
