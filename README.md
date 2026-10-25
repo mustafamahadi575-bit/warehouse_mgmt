@@ -32,3 +32,8 @@ FROM products p
 JOIN categories c ON p.category_id = c.category_id;
 ```
 ![Join Query](join.png)
+### Task: Select All Products
+```sql
+SELECT * FROM products;
+```
+![Select Query ](Select.png)
