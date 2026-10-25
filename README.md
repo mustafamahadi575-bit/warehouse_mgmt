@@ -74,3 +74,8 @@ ALTER TABLE products DROP CHECK products_chk_2;
 ALTER TABLE products RENAME COLUMN stock_quantity TO available_stock;
 ```
 ![task6 qoury](task6.png)
+### Task: Modify Column Data Type
+```sql
+ALTER TABLE products MODIFY COLUMN unit_price DECIMAL(12,2);
+```
+![task7 qoury](task7.png)
